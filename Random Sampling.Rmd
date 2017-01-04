@@ -1,0 +1,37 @@
+---
+title: "Sampling"
+author: "Arpita Majumder"
+date: "January 4, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(COUNT)
+data(smoking)
+```
+
+## R Markdown
+
+This is a R Markdown document for Random sampling methods.
+Here Smoking dataset is taken from COUNT package to explain the sampling methods. 
+Below is how the dataset looks like :
+
+```{r,include=True}
+head(smoking)
+```
+
+Summary of the Dataset 
+
+```{r,include=True}
+summary(smoking)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
